@@ -62,3 +62,6 @@ D:\Sourcecodes\weatherapp\obj\Debug\net8.0\refint\weatherapp.dll
 D:\Sourcecodes\weatherapp\obj\Debug\net8.0\weatherapp.pdb
 D:\Sourcecodes\weatherapp\obj\Debug\net8.0\weatherapp.genruntimeconfig.cache
 D:\Sourcecodes\weatherapp\obj\Debug\net8.0\ref\weatherapp.dll
+D:\Sourcecodes\weatherapp\bin\Debug\net8.0\WeatherApp.Tests\obj\project.assets.json
+D:\Sourcecodes\weatherapp\bin\Debug\net8.0\WeatherApp.Tests\obj\WeatherApp.Tests.csproj.nuget.dgspec.json
+D:\Sourcecodes\weatherapp\obj\Debug\net8.0\weatherapp.sourcelink.json
