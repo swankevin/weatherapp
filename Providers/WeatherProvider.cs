@@ -35,7 +35,13 @@ namespace WeatherApp.Providers
 
             try
             {
-                return JsonSerializer.Deserialize<WeatherResult>(rawContent);
+                var result = JsonSerializer.Deserialize<WeatherResult>(rawContent);
+                if (result == null)
+                {
+                    _logger.LogError("Deserialized WeatherResult is null. Raw content: {rawContent}", rawContent);
+                    throw new InvalidOperationException("Failed to deserialize weather data: result is null.");
+                }
+                return result;
             }
             catch (JsonException ex)
             {

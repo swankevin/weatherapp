@@ -650,3 +650,89 @@ System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"
    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
 2025-06-17 13:05:53.500 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 305.3941ms
+2025-06-17 14:37:02.672 +07:00 [INF] User profile is available. Using 'C:\Users\KVN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 14:37:02.882 +07:00 [INF] Now listening on: https://localhost:7178
+2025-06-17 14:37:02.883 +07:00 [INF] Now listening on: http://localhost:5196
+2025-06-17 14:37:02.886 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 14:37:02.887 +07:00 [INF] Hosting environment: Development
+2025-06-17 14:37:02.887 +07:00 [INF] Content root path: D:\Sourcecodes\weatherapp
+2025-06-17 14:37:03.168 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/ - null null
+2025-06-17 14:37:03.187 +07:00 [INF] Executing endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 14:37:03.220 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller weatherapp.Controllers.HomeController (weatherapp).
+2025-06-17 14:37:03.229 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-17 14:37:03.298 +07:00 [INF] Executed ViewResult - view Index executed in 70.1913ms.
+2025-06-17 14:37:03.303 +07:00 [INF] Executed action weatherapp.Controllers.HomeController.Index (weatherapp) in 82.1135ms
+2025-06-17 14:37:03.303 +07:00 [INF] Executed endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 14:37:03.307 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/ - 200 null text/html; charset=utf-8 140.5604ms
+2025-06-17 14:37:03.326 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - null null
+2025-06-17 14:37:03.325 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - null null
+2025-06-17 14:37:03.325 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-06-17 14:37:03.325 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-17 14:37:03.331 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-17 14:37:03.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-17 14:37:03.346 +07:00 [INF] The file /js/site.js was not modified
+2025-06-17 14:37:03.347 +07:00 [INF] The file /css/site.css was not modified
+2025-06-17 14:37:03.347 +07:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-06-17 14:37:03.346 +07:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-06-17 14:37:03.346 +07:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-06-17 14:37:03.346 +07:00 [INF] The file /weatherapp.styles.css was not modified
+2025-06-17 14:37:03.348 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - 304 null text/javascript 22.3917ms
+2025-06-17 14:37:03.348 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 12.2439ms
+2025-06-17 14:37:03.348 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - 304 null text/css 22.4191ms
+2025-06-17 14:37:03.348 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 22.4464ms
+2025-06-17 14:37:03.348 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 22.6199ms
+2025-06-17 14:37:03.348 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 16.6199ms
+2025-06-17 14:37:29.938 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 14:37:29.951 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 14:37:29.963 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 14:37:29.977 +07:00 [INF] WeatherController Index called with lat: -6.97, lon: 110.42
+2025-06-17 14:37:29.977 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 14:37:29.979 +07:00 [INF] Fetching weather data from URL: https://api.open-meteo.com/v1/forecast?latitude=-6.97&longitude=110.42&current_weather=true
+2025-06-17 14:37:29.986 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6.97&longitude=110.42&current_weather=true
+2025-06-17 14:37:29.988 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6.97&longitude=110.42&current_weather=true
+2025-06-17 14:37:30.962 +07:00 [INF] Received HTTP response headers after 972.0215ms - 200
+2025-06-17 14:37:30.963 +07:00 [INF] End processing HTTP request after 981.4986ms - 200
+2025-06-17 14:37:30.965 +07:00 [INF] Raw Weather API response: {"latitude":-7.0,"longitude":110.375,"generationtime_ms":0.06818771362304688,"utc_offset_seconds":0,"timezone":"GMT","timezone_abbreviation":"GMT","elevation":3.0,"current_weather_units":{"time":"iso8601","interval":"seconds","temperature":"°C","windspeed":"km/h","winddirection":"°","is_day":"","weathercode":"wmo code"},"current_weather":{"time":"2025-06-17T07:30","interval":900,"temperature":30.1,"windspeed":7.9,"winddirection":43,"is_day":1,"weathercode":2}}
+2025-06-17 14:37:31.000 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-17 14:37:31.061 +07:00 [INF] Executed ViewResult - view Index executed in 62.0378ms.
+2025-06-17 14:37:31.062 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 1098.5911ms
+2025-06-17 14:37:31.063 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 14:37:31.066 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 200 null text/html; charset=utf-8 1129.7951ms
+2025-06-17 14:37:34.978 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 14:37:34.979 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 14:37:34.980 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 14:37:34.981 +07:00 [INF] WeatherController Index called with lat: -6.97, lon: 110.42
+2025-06-17 14:37:34.982 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 14:37:34.982 +07:00 [INF] Fetching weather data from URL: https://api.open-meteo.com/v1/forecast?latitude=-6.97&longitude=110.42&current_weather=true
+2025-06-17 14:37:34.982 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6.97&longitude=110.42&current_weather=true
+2025-06-17 14:37:34.982 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6.97&longitude=110.42&current_weather=true
+2025-06-17 14:37:35.192 +07:00 [INF] Received HTTP response headers after 209.4699ms - 200
+2025-06-17 14:37:35.192 +07:00 [INF] End processing HTTP request after 210.0995ms - 200
+2025-06-17 14:37:35.192 +07:00 [INF] Raw Weather API response: {"latitude":-7.0,"longitude":110.375,"generationtime_ms":0.039458274841308594,"utc_offset_seconds":0,"timezone":"GMT","timezone_abbreviation":"GMT","elevation":3.0,"current_weather_units":{"time":"iso8601","interval":"seconds","temperature":"°C","windspeed":"km/h","winddirection":"°","is_day":"","weathercode":"wmo code"},"current_weather":{"time":"2025-06-17T07:30","interval":900,"temperature":30.1,"windspeed":7.9,"winddirection":43,"is_day":1,"weathercode":2}}
+2025-06-17 14:37:35.193 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-17 14:37:35.194 +07:00 [INF] Executed ViewResult - view Index executed in 1.0882ms.
+2025-06-17 14:37:35.194 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 213.8367ms
+2025-06-17 14:37:35.194 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 14:37:35.194 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 200 null text/html; charset=utf-8 216.4771ms
+2025-06-17 14:37:36.840 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 14:37:36.841 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 14:37:36.842 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 14:37:36.843 +07:00 [INF] WeatherController Index called with lat: -6.97, lon: 110.42
+2025-06-17 14:37:36.843 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 14:37:36.843 +07:00 [INF] Fetching weather data from URL: https://api.open-meteo.com/v1/forecast?latitude=-6.97&longitude=110.42&current_weather=true
+2025-06-17 14:37:36.844 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6.97&longitude=110.42&current_weather=true
+2025-06-17 14:37:36.844 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6.97&longitude=110.42&current_weather=true
+2025-06-17 14:37:37.046 +07:00 [INF] Received HTTP response headers after 202.7577ms - 200
+2025-06-17 14:37:37.047 +07:00 [INF] End processing HTTP request after 203.039ms - 200
+2025-06-17 14:37:37.047 +07:00 [INF] Raw Weather API response: {"latitude":-7.0,"longitude":110.375,"generationtime_ms":0.054955482482910156,"utc_offset_seconds":0,"timezone":"GMT","timezone_abbreviation":"GMT","elevation":3.0,"current_weather_units":{"time":"iso8601","interval":"seconds","temperature":"°C","windspeed":"km/h","winddirection":"°","is_day":"","weathercode":"wmo code"},"current_weather":{"time":"2025-06-17T07:30","interval":900,"temperature":30.1,"windspeed":7.9,"winddirection":43,"is_day":1,"weathercode":2}}
+2025-06-17 14:37:37.047 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-17 14:37:37.048 +07:00 [INF] Executed ViewResult - view Index executed in 1.2478ms.
+2025-06-17 14:37:37.048 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 206.5925ms
+2025-06-17 14:37:37.048 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 14:37:37.049 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 200 null text/html; charset=utf-8 208.3651ms
+2025-06-17 15:05:20.833 +07:00 [INF] User profile is available. Using 'C:\Users\KVN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 15:05:21.050 +07:00 [INF] Now listening on: http://localhost:5196
+2025-06-17 15:05:21.054 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 15:05:21.057 +07:00 [INF] Hosting environment: Development
+2025-06-17 15:05:21.060 +07:00 [INF] Content root path: D:\Sourcecodes\weatherapp
+2025-06-17 15:06:22.718 +07:00 [INF] Application is shutting down...
