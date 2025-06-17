@@ -1,0 +1,652 @@
+2025-06-17 12:53:29.608 +07:00 [INF] User profile is available. Using 'C:\Users\KVN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 12:53:29.869 +07:00 [INF] Now listening on: https://localhost:7178
+2025-06-17 12:53:29.870 +07:00 [INF] Now listening on: http://localhost:5196
+2025-06-17 12:53:29.885 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 12:53:29.885 +07:00 [INF] Hosting environment: Development
+2025-06-17 12:53:29.888 +07:00 [INF] Content root path: D:\Sourcecodes\weatherapp
+2025-06-17 12:53:30.272 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/ - null null
+2025-06-17 12:53:30.297 +07:00 [INF] Executing endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 12:53:30.335 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller weatherapp.Controllers.HomeController (weatherapp).
+2025-06-17 12:53:30.346 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-17 12:53:30.436 +07:00 [INF] Executed ViewResult - view Index executed in 91.5497ms.
+2025-06-17 12:53:30.446 +07:00 [INF] Executed action weatherapp.Controllers.HomeController.Index (weatherapp) in 110.0925ms
+2025-06-17 12:53:30.446 +07:00 [INF] Executed endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 12:53:30.453 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/ - 200 null text/html; charset=utf-8 182.4079ms
+2025-06-17 12:53:30.631 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - null null
+2025-06-17 12:53:30.631 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-17 12:53:30.631 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-06-17 12:53:30.632 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - null null
+2025-06-17 12:53:30.647 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-17 12:53:30.653 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-17 12:53:30.682 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Sourcecodes\weatherapp\wwwroot\js\site.js'
+2025-06-17 12:53:30.682 +07:00 [INF] Sending file. Request path: '/weatherapp.styles.css'. Physical path: 'D:\Sourcecodes\weatherapp\obj\Debug\net8.0\scopedcss\bundle\weatherapp.styles.css'
+2025-06-17 12:53:30.682 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Sourcecodes\weatherapp\wwwroot\css\site.css'
+2025-06-17 12:53:30.682 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - 200 1128 text/css 50.8089ms
+2025-06-17 12:53:30.682 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 35.5538ms
+2025-06-17 12:53:30.686 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 54.334ms
+2025-06-17 12:53:30.703 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Sourcecodes\weatherapp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-06-17 12:53:30.703 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Sourcecodes\weatherapp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-06-17 12:53:30.703 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Sourcecodes\weatherapp\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-06-17 12:53:30.704 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 73.6847ms
+2025-06-17 12:53:30.704 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 51.1718ms
+2025-06-17 12:53:30.704 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 73.6842ms
+2025-06-17 12:53:31.036 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/favicon.ico - null null
+2025-06-17 12:53:31.038 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Sourcecodes\weatherapp\wwwroot\favicon.ico'
+2025-06-17 12:53:31.038 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/favicon.ico - 200 5430 image/x-icon 2.427ms
+2025-06-17 12:53:38.812 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 12:53:38.815 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 12:53:38.828 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 12:53:38.846 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 12:53:38.852 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 12:53:38.854 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 12:53:39.756 +07:00 [INF] Received HTTP response headers after 900.309ms - 400
+2025-06-17 12:53:39.757 +07:00 [INF] End processing HTTP request after 907.144ms - 400
+2025-06-17 12:53:39.927 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 1098.9076ms
+2025-06-17 12:53:39.928 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 12:53:39.931 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 21
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 17
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 12:53:39.997 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 1185.4446ms
+2025-06-17 12:56:22.348 +07:00 [INF] User profile is available. Using 'C:\Users\KVN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 12:56:22.581 +07:00 [INF] Now listening on: https://localhost:7178
+2025-06-17 12:56:22.582 +07:00 [INF] Now listening on: http://localhost:5196
+2025-06-17 12:56:22.586 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 12:56:22.587 +07:00 [INF] Hosting environment: Development
+2025-06-17 12:56:22.587 +07:00 [INF] Content root path: D:\Sourcecodes\weatherapp
+2025-06-17 12:56:22.928 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/ - null null
+2025-06-17 12:56:22.960 +07:00 [INF] Executing endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 12:56:22.996 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller weatherapp.Controllers.HomeController (weatherapp).
+2025-06-17 12:56:23.004 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-17 12:56:23.083 +07:00 [INF] Executed ViewResult - view Index executed in 79.2921ms.
+2025-06-17 12:56:23.089 +07:00 [INF] Executed action weatherapp.Controllers.HomeController.Index (weatherapp) in 92.0757ms
+2025-06-17 12:56:23.089 +07:00 [INF] Executed endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 12:56:23.095 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/ - 200 null text/html; charset=utf-8 170.7338ms
+2025-06-17 12:56:23.122 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - null null
+2025-06-17 12:56:23.122 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-17 12:56:23.122 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - null null
+2025-06-17 12:56:23.122 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-17 12:56:23.123 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-06-17 12:56:23.128 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-17 12:56:23.145 +07:00 [INF] The file /js/site.js was not modified
+2025-06-17 12:56:23.145 +07:00 [INF] The file /css/site.css was not modified
+2025-06-17 12:56:23.145 +07:00 [INF] The file /weatherapp.styles.css was not modified
+2025-06-17 12:56:23.145 +07:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-06-17 12:56:23.145 +07:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-06-17 12:56:23.145 +07:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-06-17 12:56:23.147 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 21.4294ms
+2025-06-17 12:56:23.147 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - 304 null text/css 24.5382ms
+2025-06-17 12:56:23.147 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - 304 null text/javascript 24.5143ms
+2025-06-17 12:56:23.147 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 24.4995ms
+2025-06-17 12:56:23.147 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 24.5306ms
+2025-06-17 12:56:23.147 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 24.6217ms
+2025-06-17 12:56:23.179 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-17 12:56:23.179 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-17 12:56:23.182 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - null null
+2025-06-17 12:56:23.199 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Sourcecodes\weatherapp\wwwroot\js\site.js'
+2025-06-17 12:56:23.199 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 19.8199ms
+2025-06-17 12:56:23.215 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Sourcecodes\weatherapp\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-06-17 12:56:23.215 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Sourcecodes\weatherapp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-06-17 12:56:23.217 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 35.1926ms
+2025-06-17 12:56:23.217 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 38.0198ms
+2025-06-17 12:56:48.630 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 12:56:48.641 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 12:56:48.651 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 12:56:48.665 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 12:56:48.671 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 12:56:48.674 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 12:56:49.678 +07:00 [INF] Received HTTP response headers after 1002.5845ms - 400
+2025-06-17 12:56:49.679 +07:00 [INF] End processing HTTP request after 1010.7561ms - 400
+2025-06-17 12:56:49.830 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 1178.3602ms
+2025-06-17 12:56:49.831 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 12:56:49.835 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"reason":"Latitude must be in range of -90 to 90°. Given: 97.0.","error":true}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 17
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 12:56:49.891 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 1261.1921ms
+2025-06-17 12:58:51.940 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather?lat=-6.97&lon=110.42 - null null
+2025-06-17 12:58:51.947 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 12:58:51.949 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 12:58:55.232 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 12:58:55.233 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 12:58:55.233 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 12:58:56.203 +07:00 [INF] Received HTTP response headers after 969.7988ms - 400
+2025-06-17 12:58:56.203 +07:00 [INF] End processing HTTP request after 970.3587ms - 400
+2025-06-17 12:58:56.344 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 4394.8279ms
+2025-06-17 12:58:56.344 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 12:58:56.345 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"reason":"Latitude must be in range of -90 to 90°. Given: 97.0.","error":true}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 17
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 12:58:56.355 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather?lat=-6.97&lon=110.42 - 500 null text/html; charset=utf-8 4415.1677ms
+2025-06-17 12:59:29.652 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather?lat=-6.97&lon=110.42 - null null
+2025-06-17 12:59:29.652 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 12:59:29.652 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 12:59:45.247 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 12:59:47.241 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 12:59:47.241 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 12:59:47.436 +07:00 [INF] Received HTTP response headers after 194.0011ms - 400
+2025-06-17 12:59:47.436 +07:00 [INF] End processing HTTP request after 194.4352ms - 400
+2025-06-17 12:59:47.578 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 17925.7906ms
+2025-06-17 12:59:47.579 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 12:59:47.579 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"error":true,"reason":"Latitude must be in range of -90 to 90°. Given: 97.0."}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 17
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 12:59:47.585 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather?lat=-6.97&lon=110.42 - 500 null text/html; charset=utf-8 17933.1731ms
+2025-06-17 13:00:00.587 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather?lat=-6.97&lon=110.42 - null null
+2025-06-17 13:00:00.587 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:00:00.587 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:00:04.794 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:00:04.794 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:00:04.794 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:00:05.057 +07:00 [INF] Received HTTP response headers after 262.5379ms - 400
+2025-06-17 13:00:05.057 +07:00 [INF] End processing HTTP request after 263.034ms - 400
+2025-06-17 13:00:05.152 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 4565.2978ms
+2025-06-17 13:00:05.153 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:00:05.153 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"error":true,"reason":"Latitude must be in range of -90 to 90°. Given: 97.0."}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 17
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:00:05.159 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather?lat=-6.97&lon=110.42 - 500 null text/html; charset=utf-8 4572.7761ms
+2025-06-17 13:00:05.394 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/favicon.ico - null null
+2025-06-17 13:00:05.395 +07:00 [INF] The file /favicon.ico was not modified
+2025-06-17 13:00:05.395 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/favicon.ico - 304 null image/x-icon 0.5221ms
+2025-06-17 13:00:09.707 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:00:09.707 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:00:09.707 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:00:15.203 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:00:15.204 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:00:15.204 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:00:15.448 +07:00 [INF] Received HTTP response headers after 243.8559ms - 400
+2025-06-17 13:00:15.448 +07:00 [INF] End processing HTTP request after 244.1366ms - 400
+2025-06-17 13:00:15.561 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 5853.2885ms
+2025-06-17 13:00:15.561 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:00:15.561 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"reason":"Latitude must be in range of -90 to 90°. Given: 97.0.","error":true}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 17
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:00:15.568 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 5861.3062ms
+2025-06-17 13:01:13.516 +07:00 [INF] User profile is available. Using 'C:\Users\KVN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 13:01:13.704 +07:00 [INF] Now listening on: https://localhost:7178
+2025-06-17 13:01:13.705 +07:00 [INF] Now listening on: http://localhost:5196
+2025-06-17 13:01:13.709 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 13:01:13.709 +07:00 [INF] Hosting environment: Development
+2025-06-17 13:01:13.709 +07:00 [INF] Content root path: D:\Sourcecodes\weatherapp
+2025-06-17 13:01:13.948 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/ - null null
+2025-06-17 13:01:13.968 +07:00 [INF] Executing endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 13:01:14.000 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller weatherapp.Controllers.HomeController (weatherapp).
+2025-06-17 13:01:14.008 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-17 13:01:14.081 +07:00 [INF] Executed ViewResult - view Index executed in 73.1171ms.
+2025-06-17 13:01:14.087 +07:00 [INF] Executed action weatherapp.Controllers.HomeController.Index (weatherapp) in 87.0855ms
+2025-06-17 13:01:14.088 +07:00 [INF] Executed endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 13:01:14.092 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/ - 200 null text/html; charset=utf-8 147.1927ms
+2025-06-17 13:01:14.119 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-17 13:01:14.119 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - null null
+2025-06-17 13:01:14.119 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-06-17 13:01:14.119 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-17 13:01:14.125 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - null null
+2025-06-17 13:01:14.133 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-17 13:01:14.154 +07:00 [INF] The file /css/site.css was not modified
+2025-06-17 13:01:14.154 +07:00 [INF] The file /weatherapp.styles.css was not modified
+2025-06-17 13:01:14.154 +07:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-06-17 13:01:14.154 +07:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-06-17 13:01:14.154 +07:00 [INF] The file /js/site.js was not modified
+2025-06-17 13:01:14.154 +07:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-06-17 13:01:14.155 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 36.2816ms
+2025-06-17 13:01:14.155 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 22.6311ms
+2025-06-17 13:01:14.155 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - 304 null text/javascript 32.5863ms
+2025-06-17 13:01:14.155 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 36.277ms
+2025-06-17 13:01:14.155 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 35.8822ms
+2025-06-17 13:01:14.155 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - 304 null text/css 36.3109ms
+2025-06-17 13:01:17.344 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:01:17.347 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:17.358 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:01:17.372 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:01:17.381 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:17.384 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:18.247 +07:00 [INF] Received HTTP response headers after 861.3282ms - 400
+2025-06-17 13:01:18.247 +07:00 [INF] End processing HTTP request after 870.8548ms - 400
+2025-06-17 13:01:18.386 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 1028.0504ms
+2025-06-17 13:01:18.387 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:18.391 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"reason":"Latitude must be in range of -90 to 90°. Given: 97.0.","error":true}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:01:18.454 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 1110.1303ms
+2025-06-17 13:01:22.240 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:01:22.241 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:22.241 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:01:22.243 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:01:22.243 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:22.244 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:22.441 +07:00 [INF] Received HTTP response headers after 197.6191ms - 400
+2025-06-17 13:01:22.442 +07:00 [INF] End processing HTTP request after 198.268ms - 400
+2025-06-17 13:01:22.535 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 293.9027ms
+2025-06-17 13:01:22.536 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:22.537 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"error":true,"reason":"Latitude must be in range of -90 to 90°. Given: 97.0."}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:01:22.544 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 304.586ms
+2025-06-17 13:01:24.472 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:01:24.473 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:24.473 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:01:24.476 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:01:24.476 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:24.476 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:24.675 +07:00 [INF] Received HTTP response headers after 198.9017ms - 400
+2025-06-17 13:01:24.675 +07:00 [INF] End processing HTTP request after 199.3276ms - 400
+2025-06-17 13:01:24.784 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 310.6056ms
+2025-06-17 13:01:24.784 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:24.785 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"reason":"Latitude must be in range of -90 to 90°. Given: 97.0.","error":true}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:01:24.793 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 320.7077ms
+2025-06-17 13:01:27.656 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:01:27.657 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:27.657 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:01:27.657 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:01:27.657 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:27.658 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:27.899 +07:00 [INF] Received HTTP response headers after 240.9238ms - 400
+2025-06-17 13:01:27.899 +07:00 [INF] End processing HTTP request after 241.647ms - 400
+2025-06-17 13:01:27.992 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 335.2186ms
+2025-06-17 13:01:27.992 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:27.993 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"error":true,"reason":"Latitude must be in range of -90 to 90°. Given: 97.0."}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:01:27.999 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 342.7654ms
+2025-06-17 13:01:29.094 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:01:29.094 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:29.094 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:01:29.094 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:01:29.095 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:29.095 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:29.288 +07:00 [INF] Received HTTP response headers after 193.3863ms - 400
+2025-06-17 13:01:29.288 +07:00 [INF] End processing HTTP request after 193.7754ms - 400
+2025-06-17 13:01:29.378 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 284.2626ms
+2025-06-17 13:01:29.379 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:29.379 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"error":true,"reason":"Latitude must be in range of -90 to 90°. Given: 97.0."}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:01:29.385 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 291.6553ms
+2025-06-17 13:01:30.625 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:01:30.625 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:30.626 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:01:30.626 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:01:30.626 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:30.626 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:01:30.842 +07:00 [INF] Received HTTP response headers after 216.1195ms - 400
+2025-06-17 13:01:30.843 +07:00 [INF] End processing HTTP request after 216.5166ms - 400
+2025-06-17 13:01:30.933 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 307.7436ms
+2025-06-17 13:01:30.934 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:01:30.934 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"error":true,"reason":"Latitude must be in range of -90 to 90°. Given: 97.0."}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 26
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:01:30.943 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 317.6259ms
+2025-06-17 13:03:30.127 +07:00 [INF] User profile is available. Using 'C:\Users\KVN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 13:03:30.354 +07:00 [INF] Now listening on: https://localhost:7178
+2025-06-17 13:03:30.355 +07:00 [INF] Now listening on: http://localhost:5196
+2025-06-17 13:03:30.359 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 13:03:30.359 +07:00 [INF] Hosting environment: Development
+2025-06-17 13:03:30.359 +07:00 [INF] Content root path: D:\Sourcecodes\weatherapp
+2025-06-17 13:03:30.643 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/ - null null
+2025-06-17 13:03:30.666 +07:00 [INF] Executing endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 13:03:30.696 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller weatherapp.Controllers.HomeController (weatherapp).
+2025-06-17 13:03:30.703 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-17 13:03:30.772 +07:00 [INF] Executed ViewResult - view Index executed in 69.3578ms.
+2025-06-17 13:03:30.778 +07:00 [INF] Executed action weatherapp.Controllers.HomeController.Index (weatherapp) in 81.9095ms
+2025-06-17 13:03:30.779 +07:00 [INF] Executed endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 13:03:30.785 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/ - 200 null text/html; charset=utf-8 144.882ms
+2025-06-17 13:03:30.812 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - null null
+2025-06-17 13:03:30.812 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-17 13:03:30.812 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - null null
+2025-06-17 13:03:30.812 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-17 13:03:30.812 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-06-17 13:03:30.822 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-17 13:03:30.841 +07:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-06-17 13:03:30.841 +07:00 [INF] The file /js/site.js was not modified
+2025-06-17 13:03:30.841 +07:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-06-17 13:03:30.841 +07:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-06-17 13:03:30.841 +07:00 [INF] The file /weatherapp.styles.css was not modified
+2025-06-17 13:03:30.841 +07:00 [INF] The file /css/site.css was not modified
+2025-06-17 13:03:30.843 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - 304 null text/css 30.8898ms
+2025-06-17 13:03:30.843 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 30.8743ms
+2025-06-17 13:03:30.843 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 20.8086ms
+2025-06-17 13:03:30.843 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/jquery/dist/jquery.min.js - 304 null text/javascript 30.7489ms
+2025-06-17 13:03:30.843 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 31.0936ms
+2025-06-17 13:03:30.843 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 30.8964ms
+2025-06-17 13:03:36.548 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:03:36.551 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:03:36.563 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:03:36.578 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:03:36.579 +07:00 [INF] Fetching weather data from URL: https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:03:36.587 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:03:36.590 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:03:37.527 +07:00 [INF] Received HTTP response headers after 935.0897ms - 400
+2025-06-17 13:03:37.527 +07:00 [INF] End processing HTTP request after 945.4759ms - 400
+2025-06-17 13:03:37.530 +07:00 [ERR] Weather API error: "BadRequest", Details: {"reason":"Latitude must be in range of -90 to 90°. Given: 97.0.","error":true}
+2025-06-17 13:03:37.665 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 1101.7313ms
+2025-06-17 13:03:37.666 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:03:37.672 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"reason":"Latitude must be in range of -90 to 90°. Given: 97.0.","error":true}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 30
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:03:37.743 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 1194.9211ms
+2025-06-17 13:03:37.903 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/favicon.ico - null null
+2025-06-17 13:03:37.903 +07:00 [INF] The file /favicon.ico was not modified
+2025-06-17 13:03:37.903 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/favicon.ico - 304 null image/x-icon 0.9052ms
+2025-06-17 13:05:46.889 +07:00 [INF] User profile is available. Using 'C:\Users\KVN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-17 13:05:47.073 +07:00 [INF] Now listening on: https://localhost:7178
+2025-06-17 13:05:47.074 +07:00 [INF] Now listening on: http://localhost:5196
+2025-06-17 13:05:47.077 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-17 13:05:47.077 +07:00 [INF] Hosting environment: Development
+2025-06-17 13:05:47.077 +07:00 [INF] Content root path: D:\Sourcecodes\weatherapp
+2025-06-17 13:05:47.407 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/ - null null
+2025-06-17 13:05:47.425 +07:00 [INF] Executing endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 13:05:47.454 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller weatherapp.Controllers.HomeController (weatherapp).
+2025-06-17 13:05:47.462 +07:00 [INF] Executing ViewResult, running view Index.
+2025-06-17 13:05:47.537 +07:00 [INF] Executed ViewResult - view Index executed in 72.8759ms.
+2025-06-17 13:05:47.542 +07:00 [INF] Executed action weatherapp.Controllers.HomeController.Index (weatherapp) in 87.4869ms
+2025-06-17 13:05:47.543 +07:00 [INF] Executed endpoint 'weatherapp.Controllers.HomeController.Index (weatherapp)'
+2025-06-17 13:05:47.547 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/ - 200 null text/html; charset=utf-8 140.7786ms
+2025-06-17 13:05:47.573 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - null null
+2025-06-17 13:05:47.582 +07:00 [INF] The file /weatherapp.styles.css was not modified
+2025-06-17 13:05:47.584 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weatherapp.styles.css?v=S7ZXbeH3vH2CnjHWKPLd_CWPgPKn71PNZm_hhc0hEQQ - 304 null text/css 10.5237ms
+2025-06-17 13:05:52.032 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:05:52.035 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:05:52.049 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:05:52.062 +07:00 [INF] WeatherController Index called with lat: -6.97, lon: 110.42
+2025-06-17 13:05:52.063 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:05:52.066 +07:00 [INF] Fetching weather data from URL: https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:05:52.073 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:05:52.075 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:05:52.977 +07:00 [INF] Received HTTP response headers after 899.3906ms - 400
+2025-06-17 13:05:52.977 +07:00 [INF] End processing HTTP request after 909.4253ms - 400
+2025-06-17 13:05:52.980 +07:00 [ERR] Weather API error: "BadRequest", Details: {"error":true,"reason":"Latitude must be in range of -90 to 90°. Given: 97.0."}
+2025-06-17 13:05:53.119 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 1069.5903ms
+2025-06-17 13:05:53.120 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:05:53.124 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"error":true,"reason":"Latitude must be in range of -90 to 90°. Given: 97.0."}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 30
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:05:53.186 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 1153.5012ms
+2025-06-17 13:05:53.194 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7178/weather - null null
+2025-06-17 13:05:53.195 +07:00 [INF] Executing endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:05:53.195 +07:00 [INF] Route matched with {action = "Index", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Double, Double) on controller WeatherApp.Controllers.WeatherController (weatherapp).
+2025-06-17 13:05:53.196 +07:00 [INF] WeatherController Index called with lat: -6.97, lon: 110.42
+2025-06-17 13:05:53.196 +07:00 [INF] Fetching weather data for lat=-6.97, lon=110.42
+2025-06-17 13:05:53.196 +07:00 [INF] Fetching weather data from URL: https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:05:53.197 +07:00 [INF] Start processing HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:05:53.197 +07:00 [INF] Sending HTTP request GET https://api.open-meteo.com/v1/forecast?latitude=-6,97&longitude=110,42&current_weather=true
+2025-06-17 13:05:53.393 +07:00 [INF] Received HTTP response headers after 196.0321ms - 400
+2025-06-17 13:05:53.393 +07:00 [INF] End processing HTTP request after 196.3789ms - 400
+2025-06-17 13:05:53.393 +07:00 [ERR] Weather API error: "BadRequest", Details: {"reason":"Latitude must be in range of -90 to 90°. Given: 97.0.","error":true}
+2025-06-17 13:05:53.490 +07:00 [INF] Executed action WeatherApp.Controllers.WeatherController.Index (weatherapp) in 294.104ms
+2025-06-17 13:05:53.490 +07:00 [INF] Executed endpoint 'WeatherApp.Controllers.WeatherController.Index (weatherapp)'
+2025-06-17 13:05:53.491 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Weather API error: BadRequest, Details: {"reason":"Latitude must be in range of -90 to 90°. Given: 97.0.","error":true}
+   at WeatherApp.Providers.WeatherProvider.FetchWeatherDataAsync(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Providers\WeatherProvider.cs:line 30
+   at WeatherApp.Services.WeatherService.GetCurrentWeatherAsync(Double latitude, Double longitude) in D:\Sourcecodes\weatherapp\Services\WeatherServices.cs:line 21
+   at WeatherApp.Controllers.WeatherController.Index(Double lat, Double lon) in D:\Sourcecodes\weatherapp\Controllers\WeatherController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-17 13:05:53.500 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7178/weather - 500 null text/html; charset=utf-8 305.3941ms

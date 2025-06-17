@@ -1,0 +1,10 @@
+@if (Model?.current_weather != null)
+{
+    <p>Temperature: @Model.current_weather.temperature °C</p>
+    <p>Wind: @Model.current_weather.windspeed km/h</p>
+    <p>Time: @Model.current_weather.time</p>
+}
+else
+{
+    <p>No weather data available.</p>
+}
